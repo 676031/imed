@@ -32,6 +32,11 @@ a {
     transition: all .35s;
 }
 
+.h1-med-colour {
+    font-size : 40px;
+    color:black;
+}
+
 a:hover,
 a:focus {
     color: #eb3812;
@@ -193,7 +198,7 @@ header {
 }
 
 #main-header {
-    background-image: url('../images/wedding-selfie-better.jpg');
+    background-image: url('../images/main_2.jpg');
 }
 
 header .header-content {
