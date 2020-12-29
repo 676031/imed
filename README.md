@@ -1,8 +1,8 @@
-# A Django Wedding Website and Invitation + Guest Management System
+# A Django Website and Invitation + Guest Management System
 
 Live site examples:
 
-- [Standard Wedding Website](http://rowena-and.coryzue.com/)
+- [Standard Website](http://rowena-and.coryzue.com/)
 - [Random Save The Date Email](http://rowena-and.coryzue.com/save-the-date/) (refresh for more examples)
 - [Sample Personal Invitation Page](http://rowena-and.coryzue.com/invite/b2ad24ec5dbb4694a36ef4ab616264e0/)
 
