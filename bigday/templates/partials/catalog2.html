@@ -1,0 +1,14 @@
+{% load static %}
+<section id="buy1" class="bg-info">
+    <div class="col-lg-4 col-sm-6">
+            <img src="{% static main_static_url %}" class="img-responsive center-block img-circle" alt="{{ context.title }}">
+            <div class="portfolio-box-caption" style="background: rgba(49, 176, 213, .8);">
+                <div class="portfolio-box-caption-content">
+                    <div class="project-name">
+                        {{ context.title }}
+                    </div>
+                </div>
+            </div>
+    </div>
+</section>
+

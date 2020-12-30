@@ -15,7 +15,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Поддержка</a>
+                <a class="navbar-brand page-scroll" href="#page-top">iMed fabric</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -24,13 +24,16 @@
                         <a class="page-scroll" href="#main-header">Главная</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#event">Купить</a>
+                        <a class="page-scroll" href="#buy">Купить</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#niagara">Размерная сетка</a>
+                        <a class="page-scroll" href="#benefits">Почему мы ?</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#other-stuff">Прочее</a>
+                        <a class="page-scroll" href="#catalog">Наши позиции</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#buy1">Наши позиции 2</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Контакты</a>
@@ -50,7 +53,7 @@
                 <hr>
                 <h2>It's wedding week!</h2>
                 <a href="#welcome" class="btn btn-info btn-xl page-scroll">Welcome</a>
-                <a href="#event" class="btn btn-primary btn-xl page-scroll">Friday</a>
+                <a href="#buy" class="btn btn-primary btn-xl page-scroll">Friday</a>
                 <a href="#saturday-event" class="btn btn-success btn-xl page-scroll">Saturday</a>
                 {% endcomment %}
             </div>
@@ -67,7 +70,7 @@
                     </p>
                     <p>
                         Если вы зашли на этот сайт и заинтересованы в покупке медицинских халатов, то вы на правильном пути.
-                        <a href="#event" class="page-scroll">Ознакомьтесь с нашими сертификатами</a> и <a href="#saturday-event" class="page-scroll">производством</a>.
+                        <a href="#buy" class="page-scroll">Ознакомьтесь с нашими сертификатами</a> и <a href="#saturday-event" class="page-scroll">производством</a>.
                     </p>
                     <p>
                         Для заказа необходимо создать аккаунт и отправить письмо на почту: <a href="mailto:{{ support_email }}">{{ support_email }}</a>.
@@ -84,7 +87,7 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#event" class="portfolio-box page-scroll">
+                    <a href="#buy" class="portfolio-box page-scroll">
                         <img src="{% static 'bigday/images/ravine-nav.jpg' %}" class="img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
@@ -122,24 +125,24 @@
             </div>
         </div>
     </section>
-    {% include 'partials/event.html' %}
-    <section id="niagara">
+    {% include 'partials/buy.html' %}
+    <!-- <section id="niagara">
         {% include 'partials/niagara.html' %}
-    </section>
-{% comment %}
+    </section> -->
+<!-- {% comment %}
         {% include 'partials/wedding-party.html' %}
-{% endcomment %}
+{% endcomment %} -->
     <section id="other-stuff" class="bg-primary">
-        {% include 'partials/misc.html' %}
+        {% include 'partials/benefits.html' %}
     </section>
-    <section id="gifts">
+    <!-- <section id="gifts">
         {% include 'partials/gifts.html' %}
-    </section>
-    <section id="story" class="bg-dark">
+    </section> -->
+    <!-- <section id="story" class="bg-dark">
         {% include 'partials/story.html' %}
-    </section>
-    {% include 'partials/proposal.html' %}
-    {% include 'partials/save-the-dates.html' %}
+    </section> -->
+    <!-- {% include 'partials/proposal.html' %} -->
+    {% include 'partials/catalog.html' %}
     <section id="contact" class="bg-dark">
         <div class="container">
             <div class="row">
