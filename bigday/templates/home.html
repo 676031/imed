@@ -33,9 +33,6 @@
                         <a class="page-scroll" href="#catalog">Наши позиции</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#buy1">Наши позиции 2</a>
-                    </li>
-                    <li>
                         <a class="page-scroll" href="#contact">Контакты</a>
                     </li>
                 </ul>
@@ -48,14 +45,14 @@
     <header id="main-header">
         <div class="header-content">
             <div class="header-content-inner">
-                <!-- <div class="h1-med-colour">Медецинские халаты</div> -->
-                {% comment %}
+                <div class="h1-med-colour">Медецинские халаты</div>
+                <!-- {% comment %}
                 <hr>
                 <h2>It's wedding week!</h2>
                 <a href="#welcome" class="btn btn-info btn-xl page-scroll">Welcome</a>
                 <a href="#buy" class="btn btn-primary btn-xl page-scroll">Friday</a>
                 <a href="#saturday-event" class="btn btn-success btn-xl page-scroll">Saturday</a>
-                {% endcomment %}
+                {% endcomment %} -->
             </div>
         </div>
     </header>
@@ -153,13 +150,23 @@
                 </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:{{ support_email }}">{{ support_email }}</a></p>
+                    <i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <i class="fa fa-twitter fa-3x wow bounceIn" id="twitter-icon" data-wow-delay=".1s"></i>
+                    <p> E-mail: <a href="mailto:{{ support_email }}">{{ support_email }}</a></p>
+                    <address> Instagram: <a href="https://www.instagram.com/i-med">по этой ссылке</a></address>
+                    <address> Facebook: <a href="https://www.instagram.com/i-med">по этой ссылке</a></address>
+                    <address> Twitter: <a href="https://www.instagram.com/i-med">по этой ссылке</a></address>
+                    <button><a>Заказать</a></button>
                 </div>
+                {% if data %}
+                {{data}}
+                {% endif %}
             </div>
         </div>
     </section>
     {% endblock %}
-{% endblock %}
+    {% endblock %}
 {% block page_js %}
     <!-- Plugin JavaScript -->
     <!-- Easing is for the vertical scroll animations -->

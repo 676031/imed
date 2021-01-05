@@ -178,6 +178,7 @@
   content: "\f002";
 }
 .fa-envelope-o:before {
+  display: inline-block;
   content: "\f003";
 }
 .fa-heart:before {
